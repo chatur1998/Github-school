@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+    int i,j,o;
+    char k=65;
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            for(o=65;o<=j;o++)
+            {
+                printf("%c",k);
+                k+=1; //i want ki woh aisa aaye ki har line se A se start bho
+            }
+
+        }
+        printf("\n");
+    }
+
+}
